@@ -1,0 +1,6 @@
+<h1>Mostrando todos los avatars</h1>
+<br><br>
+
+<% @avatars.each do |a| %>
+ <%= image_tag "#{a.url_image}" %>
+<% end%>
